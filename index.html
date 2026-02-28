@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Happy Birthday</title>
+    <meta property="og:title" content="Happy Birthday" />
+    <meta property="og:description" content="A special birthday surprise." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="og.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Happy Birthday" />
+    <meta name="twitter:description" content="A special birthday surprise." />
+    <meta name="twitter:image" content="og.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="desktop-blocker" class="desktop-blocker" aria-live="polite">
+      <div class="blocker-card">
+        <h1>Mobile Only</h1>
+        <p>This experience is made only for mobile-size screens.</p>
+        <p>Please view this on your phone or reduce your browser width.</p>
+      </div>
+    </div>
+
+    <main id="mobile-app" class="mobile-app" aria-hidden="true">
+      <video id="bg-video" class="bg-video" autoplay muted loop playsinline poster="og.jpg">
+        <source src="bg-video.mp4" type="video/mp4" />
+      </video>
+      <div class="overlay"></div>
+
+      <section class="panel panel-wish active" id="wish-panel">
+        <p class="eyebrow">A little surprise for your birthday</p>
+        <h1>Touch and hold the heart to open your wish</h1>
+
+        <button id="heart-button" class="heart-button" aria-label="Open birthday wish">
+          <span class="heart">❤</span>
+          <span class="ring" id="hold-ring"></span>
+        </button>
+
+        <p id="hold-text" class="helper">Press and hold for 2 seconds</p>
+        <p id="wish-text" class="wish-text" aria-live="polite"></p>
+
+        <button id="next-btn" class="cta hidden">Read one more thing</button>
+      </section>
+
+      <section class="panel panel-confession" id="confession-panel">
+        <p class="eyebrow">From my heart</p>
+        <h2>I need to tell you this today</h2>
+
+        <div class="letter-wrap">
+          <div class="letter-seal" id="seal">Slide to unseal</div>
+          <input id="seal-slider" type="range" min="0" max="100" value="0" aria-label="Slide to unseal letter" />
+          <article id="confession-card" class="confession-card">
+            <p>
+              Happy Birthday, my favorite person.<br />
+              Every smile of yours has become my safest place.<br />
+              I didn’t want this day to pass without being honest:<br />
+              I love you. Truly, deeply, and with all my heart.
+            </p>
+            <p>
+              No pressure, no expectations.<br />
+              I just wanted your birthday to know the truth I carry every day.
+            </p>
+            <p class="signature">Always yours.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
