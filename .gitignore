@@ -16,6 +16,10 @@
 # next.js
 /.next/
 /out/
+/dev/
+
+# old project subfolder
+/wish-app/
 
 # production
 /build
