@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import DesktopWarning from '@/components/DesktopWarning';
+import BubblesBackground from '@/components/BubblesBackground';
+import AudioPlayer from '@/components/AudioPlayer';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -19,10 +22,6 @@ export const viewport = {
   maximumScale: 1,
   userScalable: 0,
 };
-
-import DesktopWarning from '@/components/DesktopWarning';
-import BubblesBackground from '@/components/BubblesBackground';
-import AudioPlayer from '@/components/AudioPlayer';
 
 export default function RootLayout({
   children,
