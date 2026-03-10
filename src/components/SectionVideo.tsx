@@ -25,6 +25,7 @@ export default function SectionVideo() {
           <video
             className="w-full aspect-[16/9] rounded-2xl object-cover bg-black block"
             controls
+            autoPlay  
             playsInline
           >
             <source

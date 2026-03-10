@@ -33,7 +33,7 @@ export default function SectionLoveExpression() {
       if (typeof navigator !== "undefined" && navigator.vibrate) {
         navigator.vibrate(50);
       }
-    }, 1000); // 1.2 seconds 
+    }, 10); // 1.2 seconds 
   };
 
   const cancelHold = () => {
