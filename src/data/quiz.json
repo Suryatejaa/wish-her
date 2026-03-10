@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "question": "You love this sport right, me too. Will you be by my side to watch next coming matches live?",
+    "image": "/images/cricket.jpeg",
+    "options": ["Yes", "Definitely yes"]
+  },
+  {
+    "id": 2,
+    "question": "You love Dhoni, and I love virat. Together we will have 6 IPL tropies 😉",
+    "image": "/images/msd.avif",
+    "options": ["Haha", "😏😒"]
+  },
+  {
+    "id": 3,
+    "question": "I know you love Kalyan Babu and I love mahesh babu but still we can enjoy their movies together in RTC X Roads!!! Em antav?",
+    "image": "/images/pspk.jpg",
+    "options": ["Yes, We will ✨", "I can't wait! 🎁"]
+  }
+]
