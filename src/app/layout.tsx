@@ -14,6 +14,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'For You ❤️',
   description: 'A romantic mobile experience',
+  openGraph: {
+    title: 'For You ❤️',
+    description: 'A romantic mobile experience',
+    images: ['/images/og-hero-image.jpg'],
+  },
 };
 
 export const viewport = {
