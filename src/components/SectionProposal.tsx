@@ -110,7 +110,7 @@ export default function SectionProposal() {
                <video
                  key="secondary-video"
                  className="w-full aspect-[16/9] rounded-2xl object-cover bg-black block"
-                 controls
+                //  controls
                  autoPlay
                  playsInline
                >

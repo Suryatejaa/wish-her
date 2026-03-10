@@ -24,7 +24,7 @@ export default function SectionOpening() {
         <FadeInSection className="w-full">
           <div className="relative w-full aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl glass p-2">
             <Image
-              src="/images/og-hero-image.jpg"
+              src="/images/hands.avif"
               alt="Hero"
               fill
               className="object-cover rounded-2xl"
