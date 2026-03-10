@@ -11,7 +11,13 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'For You ❤️',
   description: 'A romantic mobile experience',
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0',
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: 0,
 };
 
 import DesktopWarning from '@/components/DesktopWarning';
