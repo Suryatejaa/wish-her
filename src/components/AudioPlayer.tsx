@@ -12,7 +12,7 @@ export default function AudioPlayer() {
 
   // Create audio element once on mount
   useEffect(() => {
-    const audio = new Audio("/music/Insecurities.mp3");
+    const audio = new Audio("/music/remo-bgm.mp3");
     audio.loop = true;
     audio.volume = 1;
     audioRef.current = audio;
